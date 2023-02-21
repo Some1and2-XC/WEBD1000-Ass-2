@@ -35,7 +35,6 @@ img {
 
 body {
    display: grid;
-/*   grid-template-columns: repeat(4, 1fr);*/
    grid-template-columns: repeat(4, 25%);
 }
 
@@ -50,10 +49,22 @@ nav.horizontal, footer {
    grid-column: span 4;
 }
 
+aside {
+   grid-column: span 2;
+}
+
+nav.horizontal li {
+   display: blockk;
+   width: 12.5%;
+   float: left;
+}
+
 /* Section Styles */
 
-
-
+section img {
+   width: 50%;
+   margin: 0 auto 0 auto;
+}
 
 /* Customer Comment Styles */
 
