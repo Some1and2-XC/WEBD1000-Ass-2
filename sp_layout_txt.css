@@ -35,7 +35,8 @@ img {
 
 body {
    display: grid;
-   grid-template-columns: repeat(4, 1ft);
+/*   grid-template-columns: repeat(4, 1fr);*/
+   grid-template-columns: repeat(4, 25%);
 }
 
 img#logo {
@@ -45,6 +46,9 @@ img#logo {
 
 /* Horizontal Navigation List Styles */
 
+nav.horizontal, footer {
+   grid-column: span 4;
+}
 
 /* Section Styles */
 
