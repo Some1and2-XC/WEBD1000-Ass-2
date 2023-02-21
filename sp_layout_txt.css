@@ -27,15 +27,23 @@ body {
    margin-right: auto;
 }
 
-
-
+img {
+   display: block;
+}
 
 /* CSS Grid Styles */
 
+body {
+   display: grid;
+   grid-template-columns: repeat(4, 1ft);
+}
 
+img#logo {
+   grid-column: span 3;
+   width: 100%;
+}
 
 /* Horizontal Navigation List Styles */
-
 
 
 /* Section Styles */
