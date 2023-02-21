@@ -54,7 +54,7 @@ aside {
 }
 
 nav.horizontal li {
-   display: blockk;
+   display: block;
    width: 12.5%;
    float: left;
 }
@@ -63,6 +63,11 @@ nav.horizontal li {
 
 section img {
    width: 50%;
+   margin: 0 auto 0 auto;
+}
+
+section p {
+   width: 70%;
    margin: 0 auto 0 auto;
 }
 
